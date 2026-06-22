@@ -7,13 +7,15 @@ export default function Home() {
         <div className="container hero-grid">
           <div>
             <span className="badge">Places ouvertes pour septembre</span>
-            {/* Image décorative volontaire : alt vide correct, ce n'est pas une erreur */}
+
+            {/* Image décorative volontaire : pas une vraie photo, juste une forme visuelle */}
             <img
               src="/decorations/hero-shape.svg"
               alt=""
               aria-hidden="true"
               className="decorative-shape"
             />
+
             {/* Défaut volontaire : premier H1 */}
             <h1>Une crèche douce pour grandir à son rythme</h1>
 
@@ -51,7 +53,7 @@ export default function Home() {
           </div>
 
           <div className="hero-image-card">
-            {/* Défaut volontaire : image sans alt */}
+            {/* Défaut volontaire : vraie image sans alt */}
             <img src="https://quellecreche.fr/wp-content/uploads/2026/02/8-bonnes-raisons-de-mettre-son-enfant-dans-une-creche.jpg" />
           </div>
         </div>
@@ -60,8 +62,17 @@ export default function Home() {
       <section className="section section-soft">
         <div className="container">
           <div className="section-header">
+            {/* Image décorative volontaire : séparateur visuel */}
+            <img
+              src="/decorations/wave-separator.svg"
+              alt=""
+              aria-hidden="true"
+              className="decorative-wave"
+            />
+
             {/* Défaut volontaire : deuxième H1 sur la même page */}
             <h1 className="page-title">Un quotidien pensé pour les enfants</h1>
+
             <p className="lead">
               Chaque journée alterne jeux libres, activités d’éveil, repas
               équilibrés, siestes respectées et temps calmes.
@@ -70,7 +81,7 @@ export default function Home() {
 
           <div className="cards">
             <article className="card">
-              {/* Défaut volontaire : image sans alt */}
+              {/* Défaut volontaire : vraie image sans alt */}
               <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop" />
               <h3>Éveil sensoriel</h3>
               <p>
@@ -80,6 +91,7 @@ export default function Home() {
             </article>
 
             <article className="card">
+              {/* Défaut volontaire : vraie image sans alt */}
               <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?q=80&w=1200&auto=format&fit=crop" />
               <h3>Motricité libre</h3>
               <p>
@@ -89,6 +101,7 @@ export default function Home() {
             </article>
 
             <article className="card">
+              {/* Défaut volontaire : vraie image sans alt */}
               <img src="https://images.unsplash.com/photo-1604881991720-f91add269bed?q=80&w=1200&auto=format&fit=crop" />
               <h3>Repas maison</h3>
               <p>
