@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import photo from "../assets/hero-shape.svg";
 export default function Home() {
   return (
     <main>
@@ -9,7 +9,7 @@ export default function Home() {
             <span className="badge">Places ouvertes pour septembre</span>
             {/* Image décorative volontaire : alt vide correct, ce n'est pas une erreur */}
             <img
-              src="/decorations/hero-shape.svg"
+              src={photo}
               alt=""
               aria-hidden="true"
               className="decorative-shape"
